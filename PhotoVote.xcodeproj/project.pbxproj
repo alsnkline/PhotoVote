@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1C3BE80158953EF009C98E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3BE7F158953EF009C98E0 /* UIKit.framework */; };
+		B1C3BE82158953EF009C98E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3BE81158953EF009C98E0 /* Foundation.framework */; };
+		B1C3BE84158953EF009C98E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C3BE83158953EF009C98E0 /* CoreGraphics.framework */; };
+		B1C3BE8A158953EF009C98E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1C3BE88158953EF009C98E0 /* InfoPlist.strings */; };
+		B1C3BE8C158953EF009C98E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3BE8B158953EF009C98E0 /* main.m */; };
+		B1C3BE90158953EF009C98E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3BE8F158953EF009C98E0 /* AppDelegate.m */; };
+		B1C3BE93158953EF009C98E0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C3BE91158953EF009C98E0 /* MainStoryboard_iPhone.storyboard */; };
+		B1C3BE96158953EF009C98E0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C3BE94158953EF009C98E0 /* MainStoryboard_iPad.storyboard */; };
+		B1C3BE99158953EF009C98E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C3BE98158953EF009C98E0 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1C3BE7B158953EF009C98E0 /* PhotoVote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoVote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C3BE7F158953EF009C98E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1C3BE81158953EF009C98E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1C3BE83158953EF009C98E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1C3BE87158953EF009C98E0 /* PhotoVote-Info.plist */ = {isa = PBXFileReference; path = "PhotoVote-Info.plist"; sourceTree = "<group>"; };
+		B1C3BE89158953EF009C98E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1C3BE8B158953EF009C98E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1C3BE8D158953EF009C98E0 /* PhotoVote-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoVote-Prefix.pch"; sourceTree = "<group>"; };
+		B1C3BE8E158953EF009C98E0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1C3BE8F158953EF009C98E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1C3BE92158953EF009C98E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B1C3BE95158953EF009C98E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B1C3BE97158953EF009C98E0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B1C3BE98158953EF009C98E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C3BE78158953EF009C98E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C3BE80158953EF009C98E0 /* UIKit.framework in Frameworks */,
+				B1C3BE82158953EF009C98E0 /* Foundation.framework in Frameworks */,
+				B1C3BE84158953EF009C98E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1C3BE70158953EF009C98E0 = {
+			isa = PBXGroup;
+			children = (
+				B1C3BE85158953EF009C98E0 /* PhotoVote */,
+				B1C3BE7E158953EF009C98E0 /* Frameworks */,
+				B1C3BE7C158953EF009C98E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C3BE7C158953EF009C98E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3BE7B158953EF009C98E0 /* PhotoVote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C3BE7E158953EF009C98E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3BE7F158953EF009C98E0 /* UIKit.framework */,
+				B1C3BE81158953EF009C98E0 /* Foundation.framework */,
+				B1C3BE83158953EF009C98E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C3BE85158953EF009C98E0 /* PhotoVote */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3BE8E158953EF009C98E0 /* AppDelegate.h */,
+				B1C3BE8F158953EF009C98E0 /* AppDelegate.m */,
+				B1C3BE91158953EF009C98E0 /* MainStoryboard_iPhone.storyboard */,
+				B1C3BE94158953EF009C98E0 /* MainStoryboard_iPad.storyboard */,
+				B1C3BE97158953EF009C98E0 /* ViewController.h */,
+				B1C3BE98158953EF009C98E0 /* ViewController.m */,
+				B1C3BE86158953EF009C98E0 /* Supporting Files */,
+			);
+			path = PhotoVote;
+			sourceTree = "<group>";
+		};
+		B1C3BE86158953EF009C98E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3BE87158953EF009C98E0 /* PhotoVote-Info.plist */,
+				B1C3BE88158953EF009C98E0 /* InfoPlist.strings */,
+				B1C3BE8B158953EF009C98E0 /* main.m */,
+				B1C3BE8D158953EF009C98E0 /* PhotoVote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1C3BE7A158953EF009C98E0 /* PhotoVote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C3BE9C158953EF009C98E0 /* Build configuration list for PBXNativeTarget "PhotoVote" */;
+			buildPhases = (
+				B1C3BE77158953EF009C98E0 /* Sources */,
+				B1C3BE78158953EF009C98E0 /* Frameworks */,
+				B1C3BE79158953EF009C98E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoVote;
+			productName = PhotoVote;
+			productReference = B1C3BE7B158953EF009C98E0 /* PhotoVote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C3BE72158953EF009C98E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B1C3BE75158953EF009C98E0 /* Build configuration list for PBXProject "PhotoVote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1C3BE70158953EF009C98E0;
+			productRefGroup = B1C3BE7C158953EF009C98E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1C3BE7A158953EF009C98E0 /* PhotoVote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C3BE79158953EF009C98E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C3BE8A158953EF009C98E0 /* InfoPlist.strings in Resources */,
+				B1C3BE93158953EF009C98E0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B1C3BE96158953EF009C98E0 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1C3BE77158953EF009C98E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C3BE8C158953EF009C98E0 /* main.m in Sources */,
+				B1C3BE90158953EF009C98E0 /* AppDelegate.m in Sources */,
+				B1C3BE99158953EF009C98E0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1C3BE88158953EF009C98E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C3BE89158953EF009C98E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1C3BE91158953EF009C98E0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C3BE92158953EF009C98E0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B1C3BE94158953EF009C98E0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C3BE95158953EF009C98E0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1C3BE9A158953EF009C98E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1C3BE9B158953EF009C98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C3BE9D158953EF009C98E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoVote/PhotoVote-Prefix.pch";
+				INFOPLIST_FILE = "PhotoVote/PhotoVote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1C3BE9E158953EF009C98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoVote/PhotoVote-Prefix.pch";
+				INFOPLIST_FILE = "PhotoVote/PhotoVote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1C3BE75158953EF009C98E0 /* Build configuration list for PBXProject "PhotoVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C3BE9A158953EF009C98E0 /* Debug */,
+				B1C3BE9B158953EF009C98E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C3BE9C158953EF009C98E0 /* Build configuration list for PBXNativeTarget "PhotoVote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C3BE9D158953EF009C98E0 /* Debug */,
+				B1C3BE9E158953EF009C98E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C3BE72158953EF009C98E0 /* Project object */;
+}
